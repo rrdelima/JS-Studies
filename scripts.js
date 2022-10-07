@@ -1,4 +1,6 @@
-console.log('Arquivo JS externo')
+function somar(){
+    console.log('somando...');
+}
 
 
 
