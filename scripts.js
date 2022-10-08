@@ -1,18 +1,12 @@
-// var - problema de escopo - obsoleto
-// let - valor dinâmico
-// const - constante - valor não muda
+let foo = 42; //number
+foo = "bar"; // string
+foo = true; // boolean
 
-let soma = 0;
-let somaElem = document.getElementById('soma');
+console.log(foo) // neste caso valor será True, ultima atualizacao de valor
 
-somaElem.innerHTML = soma;
+const numbers = [3,1,3,4,5]
 
-function somar(){
-    soma = soma + 1;
-    somaElem.innerHTML = soma;
-}
-
-
+console.log(typeof(numbers))
 
 
 
