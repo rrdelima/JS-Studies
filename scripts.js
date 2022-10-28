@@ -1,19 +1,30 @@
-//var name = "Rodolfo" //declaracao Global
+/*function getName(){
+    console.log ('Rodolfo');
+}
+getName();*/
 
-function foo() {
-    var name = "Rodolfo"; //declaracao Local
-    console.log(name);
+//chamada da função com parâmetros
+/*function getName(name){
+    console.log (name);
+}
+getName('Rodolfo');*/
+
+
+
+//##### Arrow Functions #####//
+
+/*const getName = () => {
+    console.log ('Teste');
 }
 
-if(true){
-    //var teste = "Rodrigues"; // visivel globalmente. Vaza do bloco para fora...
-    //const teste = "Rodrigues"; // visivel somente no bloco
-    let teste = "Rodrigues"; // visivel somente no bloco
-    teste = "Lima";
+getName();*/
 
-    console.log('---', teste);
+
+const getName = (name) => {
+    console.log (name);
 }
 
-foo();
-console.log('---', teste);
+getName('Teste2');
+
+
 
