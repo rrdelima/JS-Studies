@@ -1,12 +1,10 @@
-let foo = 42; //number
-foo = "bar"; // string
-foo = true; // boolean
+var name = "Rodolfo" //declaracao Global
 
-console.log(foo) // neste caso valor será True, ultima atualizacao de valor
+function foo() {
+    //var name = "Rodolfo"; //declaracao Local
+    console.log(name);
+}
 
-const numbers = [3,1,3,4,5]
-
-console.log(typeof(numbers))
-
-
+foo();
+console.log('---', name);
 
